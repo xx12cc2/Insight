@@ -30,9 +30,9 @@ export default {
                 },
                 legend: {
                     data: [
-                        {name: '抖音', icon: 'circle'},
-                        {name: '快手', icon: 'circle'},
-                        {name: '花椒', icon: 'circle'},
+                        {name: '微信', icon: 'circle'},
+                        {name: '钉钉', icon: 'circle'},
+                        {name: 'QQ', icon: 'circle'},
                         {name: '其他', icon: 'circle'},
                     ],
                     gridIndex: 3,
@@ -76,7 +76,7 @@ export default {
                 },
                 series: [
                     {
-                        name: '抖音',
+                        name: '微信',
                         type: 'bar',
                         stack: '总量',
                         barWidth: 8,
@@ -94,7 +94,7 @@ export default {
                         data: [100, 90, 80, 70, 60, 50, 40, 30, 20, 15]
                     },
                     {
-                        name: '快手',
+                        name: '钉钉',
                         type: 'bar',
                         stack: '总量',
                         barWidth: 8,
@@ -111,7 +111,7 @@ export default {
                         data: [100, 90, 80, 70, 60, 50, 40, 30, 20, 15]
                     },
                     {
-                        name: '花椒',
+                        name: 'QQ',
                         type: 'bar',
                         stack: '总量',
                         barWidth: 8,

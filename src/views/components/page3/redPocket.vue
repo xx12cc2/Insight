@@ -19,7 +19,7 @@ export default {
                     },
                 },
                 title: {
-                    text: "红包转账分析",
+                    text: "通话时间分析",
                     top: "6%",
                     left: '2%',
                     textStyle: {
@@ -33,7 +33,7 @@ export default {
                 },
                 xAxis: {
                     scale: true,
-                    name: '次数',
+                    name: '时长',
                     nameTextStyle: {
                         color: "#0FB9CD",
                         fontSize: 10
@@ -58,7 +58,7 @@ export default {
                 },
                 yAxis: {
                     scale: true,
-                    name: '金额',
+                    name: '时间',
                     nameTextStyle: {
                         color: "#0FB9CD",
                         fontSize: 10,

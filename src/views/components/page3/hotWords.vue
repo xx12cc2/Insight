@@ -332,23 +332,23 @@ export default {
                         data: [
                             {
                                 value: 500,
-                                name: '要死'
+                                name: '爱'
                             },
                             {
                                 value: 424,
-                                name: '不活了'
+                                name: '关心'
                             },
                             {
                                 value: 332,
-                                name: '杀人'
+                                name: '陪伴'
                             },
                             {
                                 value: 264,
-                                name: '愤怒'
+                                name: '健康'
                             },
                             {
                                 value: 144,
-                                name: '自杀'
+                                name: '幸福'
                             },
                         ]
                     },
@@ -434,23 +434,23 @@ export default {
                         data: [
                             {
                                 value: 500,
-                                name: '要死'
+                                name: '合作'
                             },
                             {
                                 value: 424,
-                                name: '不活了'
+                                name: '团队'
                             },
                             {
                                 value: 332,
-                                name: '杀人'
+                                name: '项目'
                             },
                             {
                                 value: 264,
-                                name: '愤怒'
+                                name: '沟通'
                             },
                             {
                                 value: 144,
-                                name: '自杀'
+                                name: '效率'
                             },
                         ]
                     },
@@ -536,23 +536,23 @@ export default {
                         data: [
                             {
                                 value: 500,
-                                name: '要死'
+                                name: '优势'
                             },
                             {
                                 value: 424,
-                                name: '不活了'
+                                name: '创新'
                             },
                             {
                                 value: 332,
-                                name: '杀人'
+                                name: '市场份额'
                             },
                             {
                                 value: 264,
-                                name: '愤怒'
+                                name: '竞争力'
                             },
                             {
                                 value: 144,
-                                name: '自杀'
+                                name: '策略'
                             },
                         ]
                     },

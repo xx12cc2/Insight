@@ -234,7 +234,7 @@ export default {
             let option = {
                 title: [
                     {
-                        text: '赌博炒股风险',
+                        text: '通话时长0-1分钟',
                         top: '4.8%',
                         left: '7.5%',
 
@@ -245,7 +245,7 @@ export default {
                         }
                     },
                     {
-                        text: '网购风险趋势',
+                        text: '短信条数>10条',
                         top: '11.5%',
                         left: '7.5%',
 
@@ -256,7 +256,7 @@ export default {
                         }
                     },
                     {
-                        text: '赌博炒股风险',
+                        text: '通话时长1-5分钟',
                         top: '4.8%',
                         left: '37.5%',
 
@@ -267,7 +267,7 @@ export default {
                         }
                     },
                     {
-                        text: '网购风险趋势',
+                        text: '短信条数5-10条',
                         top: '11.5%',
                         left: '37.5%',
 
@@ -278,7 +278,7 @@ export default {
                         }
                     },
                     {
-                        text: '赌博炒股风险',
+                        text: '通话时长>5分钟',
                         top: '4.8%',
                         left: '67.5%',
 
@@ -289,7 +289,7 @@ export default {
                         }
                     },
                     {
-                        text: '网购风险趋势',
+                        text: '短信条数<5条',
                         top: '11.5%',
                         left: '67.5%',
 

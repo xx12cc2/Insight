@@ -2,7 +2,7 @@
     <Row class="page3">
         <Col style="width:26%;">
             <div class="left">
-                <span class='title'><span class="title-text">网赌网炒风险分析</span></span>
+                <span class='title'><span class="title-text">通话记录关联分析</span></span>
                 <span class="angle1"></span>
                 <span class="angle2"></span>
                 <span class="angle3"></span>
@@ -11,7 +11,7 @@
                     <div style="height:65%;">
                         <channel-bar
                             id="left_1"
-                            title="网赌网炒渠道分析"
+                            title="通话统计分析"
                             :data="data1"
                             ref="channelBar1"
                         ></channel-bar>
@@ -40,7 +40,7 @@
                     <div style="height:100%;">
                         <channel-bar
                             id="left_5"
-                            title="炒股借贷渠道分析"
+                            title="短信统计分析"
                             :data="data3"
                             ref="channelBar2"
                         ></channel-bar>
@@ -59,7 +59,7 @@
                 <china-map ref="chinaMap"></china-map>
             </div>
             <div class="center-bottom">
-                <span class='title'><span class="title-text">社会泄密风险分析</span></span>
+                <span class='title'><span class="title-text">安装应用分析</span></span>
                 <span class="angle1"></span>
                 <span class="angle2"></span>
                 <span class="angle3"></span>
@@ -129,7 +129,7 @@
         <Col style="width:26%">
             <div class="right-1">
                 <div class="right1-1">
-                    <span class='title'><span class="title-text">网播风险分析</span></span>
+                    <span class='title'><span class="title-text">共同好友</span></span>
                     <span class="angle1"></span>
                     <span class="angle2"></span>
                     <span class="angle3"></span>
@@ -139,7 +139,7 @@
             </div>
             <div class="right-1">
                 <div class="right1-1">
-                    <span class='title'><span class="title-text">设备安全性风险分析</span></span>
+                    <span class='title'><span class="title-text">共同群</span></span>
                     <span class="angle1"></span>
                     <span class="angle2"></span>
                     <span class="angle3"></span>
@@ -149,7 +149,7 @@
             </div>
             <div class="right-2">
                 <div class="right1-1">
-                    <span class='title'><span class="title-text">舆论/心理风险分析</span></span>
+                    <span class='title'><span class="title-text">心理风险分析</span></span>
                     <span class="angle1"></span>
                     <span class="angle2"></span>
                     <span class="angle3"></span>
@@ -160,19 +160,19 @@
                             <div class="canvasList">
                                 <double-ring
                                     id='canvas_1'
-                                    title="自杀抑郁"
+                                    title="家人亲友"
                                     color='#00CCFF'
                                     ref="ring1"
                                 ></double-ring>
                                 <double-ring
                                     id='canvas_2'
-                                    title="药品枪支"
+                                    title="工作往来"
                                     color='#EDCE43'
                                     ref="ring2"
                                 ></double-ring>
                                 <double-ring
                                     id='canvas_3'
-                                    title="色情同性恋"
+                                    title="竞争对手"
                                     color='#F83552'
                                     ref="ring3"
                                 ></double-ring>
@@ -218,47 +218,47 @@ export default {
         return {
             data1: [
                 {
-                    subtitle: '675人（2345次/4533元）',
+                    subtitle: '6752条',
                     top: '20%',
-                    data: {name: "红包转账", value: 45, color: '#0E4CFF'},
+                    data: {name: "通话时长统计", value: 45, color: '#0E4CFF'},
                 },
                 {
-                    subtitle: '675人（2345次/4533元）',
+                    subtitle: '6752条',
                     top: '36%',
-                    data: {name: "访问涉赌网络", value: 60, color: '#B405FD'},
+                    data: {name: "时间段分析", value: 60, color: '#B405FD'},
                 },
                 {
-                    subtitle: '675人（2345次/4533元）',
+                    subtitle: '6752条',
                     top: '53%',
-                    data: {name: "使用涉赌应用", value: 12, color: '#FE9900'},
+                    data: {name: "主动呼叫", value: 12, color: '#FE9900'},
                 },
                 {
-                    subtitle: '675人（2345次/4533元）',
+                    subtitle: '6752条',
                     top: '69%',
-                    data: {name: "访问炒股网络", value: 24, color: '#FF6600'},
+                    data: {name: "被动呼叫", value: 24, color: '#FF6600'},
                 },
                 {
-                    subtitle: '675人（2345次/4533元）',
+                    subtitle: '6752条',
                     top: '85%',
-                    data: {name: "使用炒股应用", value: 21, color: '#7F05FD'}
+                    data: {name: "未接听", value: 21, color: '#7F05FD'}
 
                 }
             ],
             data3: [
                 {
-                    subtitle: '675人（2345次/4533元）',
+                    subtitle: '6752条',
                     top: '29%',
-                    data: {name: "红包转账", value: 45, color: '#0E4CFF'},
+                    data: {name: "已读短信", value: 45, color: '#0E4CFF'},
                 },
                 {
-                    subtitle: '675人（2345次/4533元）',
+                    subtitle: '6752条',
                     top: '54%',
-                    data: {name: "访问涉赌应用", value: 60, color: '#FE9900'},
+                    data: {name: "未读短信", value: 60, color: '#FE9900'},
                 },
                 {
-                    subtitle: '675人（2345次/4533元）',
+                    subtitle: '6752条',
                     top: '78%',
-                    data: {name: "使用炒股应用", value: 12, color: '#7F05FD'},
+                    data: {name: "垃圾短信", value: 12, color: '#7F05FD'},
                 },
             ],
             data2: [ // 网赌用户排名数据
@@ -419,7 +419,7 @@ export default {
                 ]
             },
             data6: {
-                title: '涉军信息分析',
+                title: '涉密信息分析',
                 position: ['5%', '14%'],
                 center: ['50%', '60%'],
                 indicator: [
@@ -434,12 +434,12 @@ export default {
                 ],
                 data: [
                     {
-                        name: '个人信息涉军',
+                        name: '个人信息涉密',
                         color: '#6514FF',
                         value: [100, 8, 0.40, -80, 2000, 345, 12, 654]
                     },
                     {
-                        name: '内容涉军',
+                        name: '内容涉密',
                         color: '#B370FD',
                         value: [60, 5, 0.30, -100, 1500, 232, 432, 43]
                     }
@@ -520,12 +520,12 @@ export default {
                 title: '重点关注用户',
                 data: [
                     {
-                        name: '个人信息涉军应用个数',
+                        name: '个人信息涉密应用个数',
                         color: '#6514FF',
                         value: ['112', '212', '42', '232', '123', '67'],
                     },
                     {
-                        name: '涉军内容条数',
+                        name: '涉密内容条数',
                         color: '#B370FD',
                         value: ['112', '212', '42', '232', '123', '67']
                     }

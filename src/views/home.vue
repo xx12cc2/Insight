@@ -4,18 +4,18 @@
             <div class="selectRange">
                 <Menu mode="horizontal" @on-select="(name) =>$router.push(name)" :active-name="$route.name">
                     <MenuItem name="page1">
-                        page1
+                        手机云
                     </MenuItem>
                     <MenuItem name="page2">
-                        page2
+                        XX云
                     </MenuItem>
                     <MenuItem name="page3">
-                        page3
+                        XX云
                     </MenuItem>
                 </Menu>
             </div>
             <div class="header-title">
-                大数据可视化平台
+                智能终端监控平台
             </div>
             <div class="selectRange">
                 <Menu mode="horizontal" @on-select="handleSelect" :active-name="activeName">

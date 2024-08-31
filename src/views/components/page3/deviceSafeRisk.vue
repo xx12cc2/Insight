@@ -23,7 +23,7 @@ export default {
                         left: '4%'
                     },
                     {
-                        text: "异常微信网购类型排名",
+                        text: "群类型排名",
                         textStyle: {
                             color: "#fff",
                             fontSize: 12
@@ -40,8 +40,8 @@ export default {
                 },
                 legend: {
                     data: [
-                        {name: '人数', icon: 'circle'},
-                        {name: '金额', icon: 'circle'},
+                        {name: '活跃人数', icon: 'circle'},
+                        {name: '总人数', icon: 'circle'},
 
                     ],
                     gridIndex: 3,
@@ -97,7 +97,7 @@ export default {
                         fontSize: 10
                     },
                     axisTick: {show: false},
-                    data: ['游戏充值', '其他', '直播打赏', '彩票'],
+                    data: ['游戏', '其他', '工作', '朋友'],
                     z: 10
                 },
                 radiusAxis: {
@@ -118,7 +118,7 @@ export default {
                 },
                 series: [
                     {
-                        name: '抖音',
+                        name: '微信',
                         type: 'bar',
                         stack: '总量',
                         barWidth: 8,
@@ -136,7 +136,7 @@ export default {
                         data: [100, 90, 80, 70, 60, 50, 40, 30, 20, 15]
                     },
                     {
-                        name: '快手',
+                        name: '钉钉',
                         type: 'bar',
                         stack: '总量',
                         barWidth: 8,
@@ -153,7 +153,7 @@ export default {
                         data: [100, 90, 80, 70, 60, 50, 40, 30, 20, 15]
                     },
                     {
-                        name: '花椒',
+                        name: 'QQ',
                         type: 'bar',
                         stack: '总量',
                         barWidth: 8,
@@ -207,7 +207,7 @@ export default {
                         type: 'bar',
                         data: [1, 2, 3, 4],
                         coordinateSystem: 'polar',
-                        name: '金额',
+                        name: '活跃人数',
                         itemStyle: {
                             color: '#0AB9FE'
                         },
@@ -216,7 +216,7 @@ export default {
                         type: 'bar',
                         data: [2, 4, 6, 1],
                         coordinateSystem: 'polar',
-                        name: '人数',
+                        name: '总人数',
                         itemStyle: {
                             color: { // 颜色线性渐变
                                 type: 'linear',
