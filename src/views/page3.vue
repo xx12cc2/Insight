@@ -149,7 +149,7 @@
             </div>
             <div class="right-2">
                 <div class="right1-1">
-                    <span class='title'><span class="title-text">心理风险分析</span></span>
+                    <span class='title'><span class="title-text">话题分析</span></span>
                     <span class="angle1"></span>
                     <span class="angle2"></span>
                     <span class="angle3"></span>
