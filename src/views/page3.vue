@@ -225,7 +225,7 @@ export default {
                 {
                     subtitle: '6752条',
                     top: '36%',
-                    data: {name: "时间段分析", value: 60, color: '#B405FD'},
+                    data: {name: "通话频次", value: 60, color: '#B405FD'},
                 },
                 {
                     subtitle: '6752条',
@@ -271,7 +271,7 @@ export default {
                         {name: '董年月', value: 8},
                         {name: '高树安', value: 7},
                         {name: '李白', value: 6},
-                        {name: '杜甫', value: 5},
+                        {name: '8821', value: 5},
                         {name: '刘禹锡', value: 4},
                         {name: '苏东坡', value: 3},
                         {name: '杜牧', value: 2},
